@@ -201,4 +201,4 @@ After accessing the provided test environment, I submitted the correct response.
 
 6. **VPNs must be validated post-connection** to ensure full-tunnel routing, no DNS leakage, and IP masking are in effect.
 
-7. **TLS session secrets must be tightly controlled.** Once exposed (e.g., via `--ssl-key-log-file`), full session contents can be decrypted. Endpoint security remains a vital enforcement point.
+7. **TLS session secrets must be tightly controlled.** Once exposed (via `--ssl-key-log-file`), full session contents can be decrypted. Endpoint security remains a vital enforcement point.
